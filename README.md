@@ -25,9 +25,14 @@ $ docker build -t amerus/name_to_gender .
 
 ### Запускаем контейнер
 
-Здесь Вам нужно создать каталог локально и сохранить туда предобученную модель и columns.csv файл с названиями признаков (<your_local_path_to_pretrained_models> нужно заменить на полный путь к этому каталогу)
 ```
-$ docker run -d -p 8180:8180 -p 8181:8181 -v <your_local_path_to_pretrained_models>:/app/app/models amerus/name_to_gender
+$ ./vanilla.sh
 ```
 
-### Переходим на localhost:8181
+### Альтернативный подход
+```
+Вместо локального docker build, можно скачать готовый образ из репозитория на Docker Hub:<br> 
+$ docker pull amerus/name_to_gender 
+
+
+### Переходим на localhost:8181 или работаем с Jupyter Notebook FinalProject.ipynb
