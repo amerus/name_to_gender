@@ -5,7 +5,7 @@
 
 ML: sklearn, pandas, numpy
 API: flask
-Данные: с kaggle - https://archive.ics.uci.edu/ml/machine-learning-databases/00591/name_gender_dataset.csv
+Данные: https://archive.ics.uci.edu/ml/machine-learning-databases/00591/name_gender_dataset.csv
 
 Задача: предсказать по имени пол человека. Бинарная классификация
 
