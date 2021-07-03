@@ -30,9 +30,9 @@ $ ./vanilla.sh
 ```
 
 ### Альтернативный подход
-```
 Вместо локального docker build, можно скачать готовый образ из репозитория на Docker Hub: 
+```
 $ docker pull amerus/name_to_gender 
-
+```
 
 ### Переходим на localhost:8181 или работаем с Jupyter Notebook FinalProject.ipynb
