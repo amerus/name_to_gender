@@ -2,8 +2,9 @@
 Итоговый проект курса "Машинное обучение в бизнесе"
 
 Стек:
-ML: sklearn, pandas, numpy
-API: flask
+
+ML: sklearn, pandas, numpy<br>
+API: flask<br>
 Данные: https://archive.ics.uci.edu/ml/machine-learning-databases/00591/name_gender_dataset.csv
 
 Задача: предсказать по имени пол человека. Бинарная классификация
